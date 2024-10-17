@@ -8,11 +8,15 @@ import java.time.LocalDateTime;
 public class Link {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
-
+    @Column(name = "urlLonga")
     private String urlLonga;
+    @Column(name = "urlEncurtada")
     private String urlEncurtada;
+    @Column(name = "urlQrCode")
     private String urlQrCode;
+    @Column(name = "urlcriadaEm")
     private LocalDateTime urlcriadaEm;
 
     public Link() {
