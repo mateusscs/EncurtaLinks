@@ -1,4 +1,4 @@
-package dev.mateu.EncurtaLinks;
+package dev.mateus.EncurtaLinks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
